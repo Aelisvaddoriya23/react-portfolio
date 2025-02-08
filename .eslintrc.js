@@ -9,6 +9,9 @@ module.exports = {
     ],
   
     rules: {
-      'no-unused-vars': ['warn'], // Treat unused variables as warnings
+      'no-unused-vars': ['warn'],
+      'react/prop-types': 'off',
+      'react/no-unescaped-entities': 'off',
+      'react/jsx-no-target-blank': 'off',
     },
   };
